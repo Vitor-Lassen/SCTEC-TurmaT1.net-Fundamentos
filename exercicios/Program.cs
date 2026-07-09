@@ -82,6 +82,27 @@ else
     }
 }
 
+//1 = -5 , 2 = 3, 3 =1 
+
+if (num1 > num2 && num1 > num3)
+{
+
+    Console.WriteLine($"o numero {num1} é o maior");
+
+}
+else
+{
+    if (num2 > num3 && num2 > num1 )
+    {
+        Console.WriteLine($"o numero {num2} é o maior");
+    }
+    else
+    {
+        Console.WriteLine($"o numero {num3} é o maior");
+    }
+}
+
+
 
 //Calcular o bônus salarial (15% se tempo > 5 anos, senão 5%).
 

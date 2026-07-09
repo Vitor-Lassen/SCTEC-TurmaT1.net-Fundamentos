@@ -26,13 +26,11 @@ double media = (nota1 + nota2 + nota3) / 3;
 //     Console.WriteLine($"Aluno aprovado! com média de: {media:F2}");
 // }
 
-// if (media >=5)
-// {
-//     if (media < 7)
+// if (media >=5 && media < 7)
 //     {
 //         Console.WriteLine($"Aluno em recuperacao! com média de: {media:F2}");
 //     }
-// }
+
 
 // if (media <5)
 // {
